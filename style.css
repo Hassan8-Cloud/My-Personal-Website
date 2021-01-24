@@ -130,11 +130,6 @@ img:hover {
     background-color: bisque;
 }
 
-#Games {
-    width: 100%;
-    height: 800px;
-    background-color: antiquewhite;
-}
 
 #Chatbot {
     width: 100%;
@@ -142,11 +137,28 @@ img:hover {
     background-color: aquamarine;
 }
 
-img {
-    transition: transform .2s;
-    border: 10px solid #AAAAAA;
+
+
+
+
+.container {
+    text-align: center;
+
 }
 
-img:hover {
-    transform: scale(0.9);
+#mycarousel {
+    background-color: red;
+
+}
+
+#mycarousel img {
+    height: 300px;
+    margin-top: 25px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
 }
